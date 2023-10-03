@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+main{
+    background-color:rgb(218, 214, 214) ;
+}
+.container{
+    margin: auto;
+    width: 1500px;
+}
+
+.flex{
+    display: flex;
+}
+
+#nav1 ,#nav2{
+    justify-content: space-between;
+    height: 50px;
+    
+}
+#left-nav ,#right-nav,#nav2_1,#nav2{
+    gap: 30px;
+    align-items: center;
+    color: white;
+}
+#nav1{
+    background-color: rgb(218, 214, 214);
+    color: gray;
+}
+
+#nav1 a{
+    color: gray;
+}
+#nav2{
+    background-color: red;
+}
+#yeni_elan{
+    width: 100px;
+    padding: 1px;
+    height: 40px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+#VIP_elanlar{
+    justify-content: space-between;
+    height: 80px;
+    align-items: center;
+    background-color: rgb(244, 241, 241);
+}
+#cards{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.card{
+    width: 300px;
+    background-color: white;
+    padding: 3px;
+    border-radius: 10px;
+
+}
+
+.back{
+    position: relative;
+    height: 300px;
+    background: url(https://pub-static.fotor.com/assets/bg/3e2ec15e-01a7-4de9-863d-a26dc172a574.jpg) center/cover;
+}
+
+.home{
+    position: absolute;
+  top: 20px;
+  left:10px;
+}
+.heart{
+    position: absolute;
+  top: 20px;
+  right: 10px;
+}
+.button{
+    position: absolute;
+  bottom: 10px;
+  left: 10px;
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+}
+.crown{
+    position: absolute;
+    bottom: 20px;
+    right: 10px;
+}
+#adv{
+    background-color:rgb(183, 177, 177) ;
+    
+    border: 1px solid rgb(233, 229, 229);
+}
+#adv2{
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    
+    color: gray;
+}
+#first_foot{
+    width: 500px;
+    justify-content: space-between;
+}
+#links{
+    
+    display: flex;
+    justify-content: space-between;
+}
+#links div{
+    width: 100px;
+}
+#rules{
+    display: flex;
+    border: 1px solid rgb(233, 229, 229);
+    align-items: center;
+    height: 50px;
+    background-color:rgb(183, 177, 177) ;
+    color: gray;
+    gap: 20px;
+}
+#last_foot{
+    background-color: red;
+    
+}
+#last_foot2{
+    padding: 10px 0;
+    align-items: center;
+    color: white;
+    justify-content: space-between;
+}
